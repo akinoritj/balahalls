@@ -55,9 +55,9 @@ public class Movimentacao : MonoBehaviour
             audioPlayer.PlayOneShot(morte);
             Time.timeScale = 0;
         }
-        if(other.gameObject.CompareTag("Neve") && pontos == 45)
+        if(other.gameObject.CompareTag("Neve") && pontos == 5)
         {
-            SceneManager.LoadScene("Fase2");
+            SceneManager.LoadScene("fase2");
         }
         if (other.gameObject.CompareTag("Vitoria"))
         {

@@ -8,17 +8,17 @@ public class CarregarCenas : MonoBehaviour
 {
     public void Jogar()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("fase1");
 
     }
     
     public void VoltarMenu()
     {
-        SceneManager.LoadScene("Menuu");
+        SceneManager.LoadScene("Menu");
     }
     public void Replay()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("fase1");
         Time.timeScale = 1.0f;
     }
 

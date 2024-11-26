@@ -4,8 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Chao
+  - Lava
+  - Neve
   - chao
-  - parede
+  - Vitoria
   layers:
   - Default
   - TransparentFX
